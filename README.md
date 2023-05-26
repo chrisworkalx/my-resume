@@ -62,13 +62,13 @@ export default defineConfig({
       },
 
       // 生成的 PDf 名称
-      pdfName: '岳晓亮个人简历',
+      pdfName: '姚明飞个人简历',
 
       // PDF 的边距，会被 `@page { margin: 0px; }` 样式覆盖
       pdfMargin: 0,
 
       // 生成的 HTML 的 Title
-      webTitle: '岳晓亮个人简历 - markdown-to-resume'
+      webTitle: '姚明飞个人简历'
     })
   ]
 });
