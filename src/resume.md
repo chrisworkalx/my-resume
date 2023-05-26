@@ -1,15 +1,15 @@
 :::: {.basic-info}
 
 ::: {.left}
-# 岳晓亮 {.name}
+# 姚明飞 {.name}
 
-**求职意向：高级前端 / 25K / 北京** {.target}
+**求职意向：高级前端 / 26K / 上海** {.target}
 
 - **前端：** 7 年
-- **生日：** 1993.02.24
-- **籍贯：** 河北张家口
-- **手机：** 13932364394
-- **邮箱：** 2220124666@qq.com
+- **生日：** 1991.04.18
+- **籍贯：** 江苏徐州
+- **手机：** 17821943243
+- **邮箱：** chrisyao0208@163.com
 
 {.list}
 :::
@@ -220,17 +220,17 @@ Vue生态、小程序、高德地图、uni-app、Taro、TypeScript、Electron、
 
 ## 社区地址
 
-- **GitHub：** https://github.com/yuexiaoliang
-- **NPM：** https://npmjs.com/~yuexiaoliang1993
-- **知乎：** https://www.zhihu.com/people/dulegege
-- **掘金：** https://juejin.cn/user/1574156384083688
+- **GitHub：** https://github.com/chrisworkalx
+- **Blog：** https://chrisworkalx.github.io/blog/
+- **CodePen：** https://codepen.io/chrisworkalx
+- **掘金：** https://juejin.cn/user/430664290152648
 
 ## 致谢
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
 
 ::: {.main-footer}
-[下载 PDF 版](岳晓亮个人简历.pdf){download="岳晓亮个人简历.pdf"}
+[下载 PDF 版](姚明飞个人简历.pdf){download="姚明飞个人简历.pdf"}
 
 [打印简历](#){#print-button}
 :::

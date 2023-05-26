@@ -45,7 +45,7 @@ jobs:
         run: pnpm build
 
       - name: Create CNAME
-        run: cd dist && echo "www.chrisworkalx.top" > CNAME
+        run: cd dist && echo "www.yaomingfei.info" > CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
