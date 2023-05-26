@@ -1,6 +1,7 @@
-# markdown-to-resume
+# 前言
 
-Markdown 转个人简历。
+1. 主要解决频繁更替自己的简历文件，可以使用markdown语法编辑简历。
+2. 面试也可以给自己加分
 
 ## 特性
 
@@ -10,35 +11,22 @@ Markdown 转个人简历。
 
 ## 使用方式
 
-### 创建简历
+### 项目启动
 
 ``` bash
-pnpm create markdown-to-resume
+pnpm install
+pnpm run dev //本地开发
+pnpm run build //打包
 ```
-
-### 编辑简历
-
-``` bash
-# 启动服务
-pnpm dev
-
-# 编辑 `src/resume.md`
-```
-### 构建简历
-
-``` bash
-# 启动服务
-pnpm build
-```
-
 
 ### 配置自动部署
-1. 仓库中增加名为 **ACTION_TOKEN** 的 **Actions secrets**，参考：[Actions生成 secrets](https://www.jianshu.com/p/5afbd53e1700)。
-1. 修改 `.github/workflows/gh-pages.yml` 第 **48** 行为 **Github Pages** 要绑定的自定义域名，或删除 **46 至 48** 行。
-1. 提交代码。
-1. 配置 **Github Pages**。
 
-如果一切顺利，恭喜你之后只需要：修改 => 提交 => 等待自动部署完成
+1. github对应的仓库需要配置action选项token字段，字段名为`ACTION_TOKEN`
+2. 需要修改`workflow`文件夹下面`yml`文件配置自己的域名
+3. `.yml`文件夹下有一个`CNAME`，这个是在域名解析时候映射第三方域名使用（域名需要备案）
+4. 配置好自己的`githubpage`
+5. 剩下就是自己布局，提交代码就好了，然后访问自己设置的域名
+
 
 ## 配置
 
@@ -84,64 +72,26 @@ export default defineConfig({
 
 使用前：
 ``` html
-<!-- render after -->
-# 岳晓亮
-求职意向：高级前端 / 25K / 北京
-
-<!-- render before -->
-<h1>岳晓亮</h1>
-<p>求职意向：高级前端 / 25K / 北京</p>
-```
-
-使用后：
-``` html
-<!-- render after -->
 :::
-# 岳晓亮
-求职意向：高级前端 / 25K / 北京
+# 姚明飞
+求职意向：高级前端 / 26k / 上海
 :::
-
-<!-- render before -->
-<div class="container">
-  <h1>岳晓亮</h1>
-  <p>求职意向：高级前端 / 25K / 北京</p>
-</div>
 ```
 
 ### markdown-it-attrs
 
 添加 `html` 属性，如：`class` 、 `id`。
-
-使用前：
 ``` html
-<!-- render after -->
-:::
-# 岳晓亮
-求职意向：高级前端 / 25K / 北京
-:::
-
-<!-- render before -->
-<div class="container">
-  <h1>岳晓亮</h1>
-  <p>求职意向：高级前端 / 25K / 北京</p>
-</div>
-```
-
-使用后：
-``` html
-<!-- render after -->
 ::: {.header}
-# 岳晓亮 {.name}
-求职意向：高级前端 / 25K / 北京
+# 姚明飞 {.name}
+求职意向：高级前端 / 26k / 上海
 :::
-
-<!-- render before -->
-<div class="header">
-  <h1 class="name">岳晓亮</h1>
-  <p>求职意向：高级前端 / 25K / 北京</p>
-</div>
 ```
 
 ## 示例
 
-[岳晓亮个人简历](https://resume.yuexiaoliang.com)
+[姚明飞个人简历](https://www.yaomingfei.info)
+
+## 参考
+[markdown-to-resume](https://github.com/yuexiaoliang/markdown-to-resume)
+
