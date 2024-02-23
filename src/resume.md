@@ -130,7 +130,7 @@
 
 ### coupang电商官方商城（PC、H5、App）
 
-**时间：** 2023.09 - 2023.01
+**时间：** 2023.09 - 2024.01
 
 **技术栈：** java + handlebars + html + js + css + react16 + vue2
 
