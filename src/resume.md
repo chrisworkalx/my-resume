@@ -99,7 +99,6 @@
 - 封装了一套基于element-ui根据设计稿统一通用的组件库，主要包括包括（Table、Form、Card、Tab、Button等）
 - 基于gitlab + docker + git-runner 实现了前端自动化部署
 - Cloud 云平台完成基于 bpmn + 低代码的售后服务工作流 + websocket 实施留言板推送
-{style="page-break-after: always"}
 
 ### 民生证券股份有限公司
 
@@ -139,6 +138,7 @@
 - 通用页面自动化创建的cli
 - 前端快速部署自动化脚本(Selenium)
 - 基础组件、公用方法封装等
+{style="page-break-after: always"}
 
 ## 项目经验
 
@@ -167,7 +167,6 @@
 - 功能模块的开发 + 基础通用组件的开发
 - 做了一些公共组件的开发 （基于agrid表格二次封装、BasicForm二次开发增加加密组件、锚点导航等）
 - 基础工具函数的封装等（字典缓存、日期通用等）
-{style="page-break-after: always"}
 
 ### 非夕Cloud云平台
 
